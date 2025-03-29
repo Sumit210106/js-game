@@ -1,12 +1,54 @@
-# React + Vite
+# Word Fall - Typing Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fast-paced typing game where words fall from the top of the screen and you race against time to type them before they hit the bottom. Test your typing speed and accuracy in this exciting challenge!
 
-Currently, two official plugins are available:
+## 🎮 Game Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Word Fall** is a typing game where:
 
-## Expanding the ESLint configuration
+- Words randomly fall from the top of the screen
+- Type the words correctly before they reach the bottom
+- Each correct word gives you 20 points
+- Each missed word costs you a life
+- Game continues until you run out of lives
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- Increasing difficulty as your score grows
+- Responsive design that works on desktop and tablets
+- Sleek animations for word movements
+- Real-time score tracking
+- Life counter with visual indicators
+- High score saving using local storage
+
+## 🛠️ Tech Stack
+
+- **React** - For building the user interface
+- **Tailwind CSS** - For styling components
+- **Vite** - For fast development and optimized builds
+- **Vercel** - For deployment and hosting
+- **Random Word API** - For generating random words ([https://random-word-api.vercel.app/api?words=105](https://random-word-api.vercel.app/api?words=210))
+
+## 🖥️ Local Development
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/word-fall.git
+
+# Navigate to project directory
+cd word-fall
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## 📱 Live Demo
+
+Check out the live game at: https://word-fall-delta.vercel.app/
+
+## 👤 Author
+
+Created by Sumit Nayak
